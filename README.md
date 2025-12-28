@@ -17,6 +17,17 @@ In the output, you'll find options to open the app in:
 - [an iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
+**Note for C72 RFID Integration:**
+Because this project includes a custom native module for the C72 RFID Reader, you cannot use the standard Expo Go app. You must build a custom Development Client.
+
+To run the app on the C72 device:
+1. Connect the C72 device to your computer via USB (ensure USB debugging is enabled).
+2. Run the following command:
+   ```bash
+   npx expo run:android
+   ```
+   This command compiles the native Android app (with the RFID SDK) and installs it on your device. Once installed, it connects to the Metro bundler, allowing you to edit JavaScript files with Fast Refresh, just like in Expo Go.
+
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
 ## Workflows
