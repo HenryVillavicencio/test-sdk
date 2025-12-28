@@ -1,0 +1,11 @@
+{
+  "platforms": [
+    "android"
+  ],
+  "android": {
+    "package": "expo.modules.c72rfid",
+    "modules": [
+      "C72RfidModule"
+    ]
+  }
+}

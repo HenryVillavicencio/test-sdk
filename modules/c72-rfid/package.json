@@ -1,0 +1,22 @@
+{
+  "name": "c72-rfid",
+  "version": "1.0.0",
+  "description": "A local Expo module for C72 UHF RFID Reader",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "c72-rfid",
+    "c72",
+    "rfid"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
